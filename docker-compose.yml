@@ -1,0 +1,19 @@
+version: "3.7"
+services:
+  spring:
+    build:
+      context: .
+      dockerfile: ./.devcontainer/Dockerfile
+    tty: true
+    volumes:
+      - type: bind
+        source: ./app
+        target: /app
+      - type: volume
+        source: target
+        target: /app/target
+    ports:
+      - 8080:8080
+
+volumes:
+  target:
