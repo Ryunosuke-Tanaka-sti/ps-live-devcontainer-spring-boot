@@ -17,7 +17,7 @@ pullしてdevcontainerで起動すれば実行できます。
 
 ## 資料
 
-発表資料：assets/PS Live デブコン祭り-Spring Boot.pdf
+発表資料：assets/PS Live デブコン祭り-Spring boot.pdf
 
 - [環境作成：Spring Bootの環境をダウンロード](https://gist.github.com/Ryunosuke-Tanaka-sti/ecdd0b12a239111c8de96372a64d8947)
   - [Spring Initializer](https://start.spring.io/)からプロジェクトを作成してダウンロードする
