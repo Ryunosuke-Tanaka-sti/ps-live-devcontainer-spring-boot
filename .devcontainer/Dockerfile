@@ -10,7 +10,6 @@ COPY --chown=spring:spring ./app/.mvn .mvn
 COPY --chown=spring:spring ./app/mvnw ./app/pom.xml ./
 
 USER spring:spring
-
 RUN ./mvnw dependency:go-offline
 
 COPY --chown=spring:spring ./app/src ./src

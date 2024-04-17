@@ -19,10 +19,12 @@ pullしてdevcontainerで起動すれば実行できます。
 
 発表資料：assets/PS Live デブコン祭り-Spring Boot.pdf
 
-- 環境作成：Spring Bootの環境をダウンロード
+- [環境作成：Spring Bootの環境をダウンロード](https://gist.github.com/Ryunosuke-Tanaka-sti/ecdd0b12a239111c8de96372a64d8947)
   - [Spring Initializer](https://start.spring.io/)からプロジェクトを作成してダウンロードする
-- 改善１：Volume Trickを使用してビルドファイルをコンテナ内に収める
-- 改善２：レイヤーキャッシュを活用して効率化する
+- [改善](https://gist.github.com/Ryunosuke-Tanaka-sti/4e1fd8447d2d8daadea215113899084b)
+  - 改善１：Volume Trickを使用してビルドファイルをコンテナ内に収める
+  - 改善２：非rootユーザーで実行する
+  - 改善３：レイヤーキャッシュを活用して効率化する
 - 起動確認
 - 環境作成：devcontainerで立ち上げる
 
